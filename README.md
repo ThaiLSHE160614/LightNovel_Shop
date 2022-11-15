@@ -1,1 +1,1 @@
-# sample
+Light novel Shop
