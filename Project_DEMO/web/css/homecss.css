@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 27, 2022, 8:58:23 PM
+    Author     : admin
+*/
+html,body
+{
+	border: 0;
+	background-color: #fff;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	font-size: 62.5%;
+	-webkit-overflow-scrolling: touch;
+	-webkit-touch-callout:none;
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:100%;
+}
+body
+{
+	line-height: 21px;
+	font-size: 14px;
+	color: #555555;
+	overflow-x: hidden;
+	background:#ffffff;
+	position: initial !important;
+}
+.site-topbar .topbar-nav {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.site-topbar .topbar-info {
+	line-height: 50px;
+}
+.topbar-info .taikhoan a{
+	color:#ffffff;
+}
+.user_login, .cart_header {
+    margin-top: 20px;
+    float: right;
+    padding-bottom: 10px;
+    position: relative;
+}
+.cart_header_icon {
+    vertical-align: bottom;
+    color: #000;
+    width: 40px;
+    min-height: 40px;
+    background: url(//theme.hstatic.net/1000201594/1000298847/14/cart-icon.png?v=1173) no-repeat 0 50%;
+    display: inline-block;
+}
+.box_text {
+    display: inline-block;
+}
+.user_login {
+    margin-right: 30px;
+}
+.user_login_icon {
+    color: #000;
+    width: 40px;
+    vertical-align: top;
+    margin-right: 5px;
+    min-height: 40px;
+    background: url(//theme.hstatic.net/1000201594/1000298847/14/user-icon.png?v=1173) no-repeat 0 50%;
+    display: inline-block;
+}
